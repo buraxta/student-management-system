@@ -30,6 +30,6 @@ public class StudentManagementSystemApplication implements CommandLineRunner{
 //		Student student3 = new Student("Tony", "Stark", "Tony@batu.com");
 //		studentRepository.save(student3);
 		
-	}
+	} 
 
 }
