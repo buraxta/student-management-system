@@ -12,29 +12,31 @@
 <div class="container">
 	<div class="row">
 		<h1> List Students </h1>
+	</div>
+	
 		<div class="row">
 			<div class col-lg-3>
-			<a th:href = "@{/students/new}" class="btn btn-primary btn-sm mb-3"> Add Student </a>
+				<a th:href = "@{/students/new}" class="btn btn-primary btn-sm mb-3"> Add Student </a>
 			</div>
 		</div>
-	</div>
-	<table class="table table-stripped table-bordered">
-	<thead class="table-dark">
-		<tr>
-			<th> Student First Name </th>
-			<th> Student Last Name </th>
-			<th> Student Email</th>
-			<th> Actions </th>
-		</tr>
-	</thead>
 	
-	<tbody>
-		<tr th:each = "student: ${student}">
+	<table class="table table-stripped table-bordered">
+		<thead class="table-dark">
+			<tr>
+				<th> Student First Name </th>
+				<th> Student Last Name </th>
+				<th> Student Email</th>
+				<th> Actions </th>
+			</tr>
+		</thead>
+	
+		<tbody>
+			<tr th:each = "student: ${student}">
 					<td th:text = "${student.firstName}"></td>
 					<td th:text = "${student.lastName}"></td>
 					<td th:text = "${student.email}"></td>
-		</tr>
-	</tbody>
+			</tr>
+		</tbody>
 	
 	</table>
 </div>
