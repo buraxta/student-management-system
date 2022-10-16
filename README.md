@@ -1,9 +1,9 @@
 # Student Management System
 
 This is a study aiming for making some practice with spring boot and thymeleaf.  
-In this tutarial we learned basically;  
+In this tutorial we learned basically;  
 - How to map a request by using post/get Mapping,
-- How to use JpaRepository for manupulate our datas,
+- How to use JpaRepository for manipulate our datas,
 - How to connect MySQL and how to configure properties file
 - We use Service Layer instead of using repository directly,
 - In HTML pages how to use thymeleaf properties (iterating datas, direct a link etc)
